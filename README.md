@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Austin Wagner 👋</h1>
+<h1 align="center">Hi, I'm Austin Wagner 💻</h1>
 
 ### About Me
 - From Irvine, California 🌴
