@@ -15,7 +15,7 @@
 
 ### Featured Projects
 
-- [Property Manager](https://propertieshb.com/): Multi-site real estate marketing platform with Google Drive integration and automated document management 🏘️
+- [Property Manager](https://propertieshb.com/): Real estate marketing platform with Google Drive integration and automated document management 🏘️
 - [ICS Connect](https://wagner-austin.github.io/event-planner/): Event planning and RSVP API for campus/community events with JWT auth and waitlist support 📅
 - [Kana Pop](https://wagner-austin.github.io/kana-pop/): Interactive game for learning Japanese kana and romaji relationships 🎌
 - [Model Trainer](https://github.com/wagner-austin/model-trainer): Typed microservice for training tiny language models with FastAPI, Redis, and RQ workers 🤖
