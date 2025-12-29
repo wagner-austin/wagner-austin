@@ -5,9 +5,14 @@
   <a href="mailto:austinwagner@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
----
+<br>
 
-### 🧠 About Me
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" width="28" />
+  About Me
+</h2>
+
+<div align="center">
 
 ```python
 class AustinWagner:
@@ -18,69 +23,100 @@ class AustinWagner:
     fun_fact = "Former EMT with 7 years of experience"
 ```
 
----
+</div>
 
-### 💼 Experience
+<br>
 
-| Role | Company | Duration |
-|------|---------|----------|
-| 🔬 Research Assistant | UC Irvine | Aug 2024 - Present |
-| 📷 Professional Photographer | Corvis Photography | May 2022 - Present |
-| 🏥 Emergency Medical Technician | Falck Ambulance | Mar 2015 - Nov 2021 |
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28" />
+  Experience
+</h2>
 
----
-
-### 🚀 Featured Projects
-
+<div align="center">
 <table>
 <tr>
-<td width="50%">
+<td align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" width="30"/></td>
+<td><b>Research Assistant</b></td>
+<td>UC Irvine</td>
+<td><code>Aug 2024 - Present</code></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" width="30"/></td>
+<td><b>Professional Photographer</b></td>
+<td>Corvis Photography</td>
+<td><code>May 2022 - Present</code></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ambulance.png" width="30"/></td>
+<td><b>Emergency Medical Technician</b></td>
+<td>Falck Ambulance</td>
+<td><code>Mar 2015 - Nov 2021</code></td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" />
+  Featured Projects
+</h2>
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 <h3 align="center">Model Trainer</h3>
 <p align="center">
   <a href="https://github.com/wagner-austin/model-trainer"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
 </p>
-<p align="center">Typed microservice for training tiny language models with FastAPI, Redis, and RQ workers</p>
+<p align="center"><sub>Typed microservice for training tiny language models with FastAPI, Redis, and RQ workers</sub></p>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 <h3 align="center">Turkic API</h3>
 <p align="center">
   <a href="https://github.com/wagner-austin/turkic-api"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
 </p>
-<p align="center">Production-grade API for Turkic language corpus processing and transliteration</p>
+<p align="center"><sub>Production-grade API for Turkic language corpus processing and transliteration</sub></p>
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 <h3 align="center">Handwriting AI</h3>
 <p align="center">
   <a href="https://github.com/wagner-austin/handwriting-ai"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
 </p>
-<p align="center">FastAPI service that reads handwritten digits using PyTorch with model averaging</p>
+<p align="center"><sub>FastAPI service that reads handwritten digits using PyTorch with model averaging</sub></p>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 <h3 align="center">Kana Pop</h3>
 <p align="center">
   <a href="https://wagner-austin.github.io/kana-pop/"><img src="https://img.shields.io/badge/Play_Now-ff00ff?style=for-the-badge&logo=github"/></a>
 </p>
-<p align="center">Interactive game for learning Japanese kana and romaji relationships</p>
+<p align="center"><sub>Interactive game for learning Japanese kana and romaji relationships</sub></p>
 </td>
 </tr>
 </table>
-
----
-
-### 📊 Statistics
+</div>
 
 <br>
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" />
+  Statistics
+</h2>
 
 <div align="center">
   <img src="https://github-stats-api-production-5042.up.railway.app/api?username=wagner-austin&theme=cyberpunk&show_icons=true&include_all_commits=true" height="150" alt="stats graph"  />
   <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=3" height="150" alt="languages graph"  />
 </div>
 
----
+<br>
 
-### 🛠️ Tech Stack
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28" />
+  Tech Stack
+</h2>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,fastapi,pytorch,docker,redis,postgres,git&theme=dark&perline=10" />
