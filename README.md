@@ -1,10 +1,5 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a2e,100:0a0a0f&height=200&section=header&text=Austin%20Wagner&fontColor=00fff9&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20ML%20Researcher%20%7C%20Linguist&descAlignY=55&descSize=18&animation=twinkling"/>
 
-<p align="center">
-  <a href="https://linkedin.com/in/wagner-austin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:austinwagner@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
-
 <h2>About Me</h2>
 
 ```python
