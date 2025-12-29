@@ -30,7 +30,7 @@
 
 <div align="center">
   <img src="https://github-stats-api-production-5042.up.railway.app/api?username=wagner-austin&theme=cyberpunk&show_icons=true&include_all_commits=true" height="150" alt="stats graph"  />
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=2" height="150" alt="languages graph"  />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=3" height="150" alt="languages graph"  />
 </div>
 
 ###
