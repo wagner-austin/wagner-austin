@@ -1,30 +1,75 @@
-<h1 align="center">Hi, I'm Austin Wagner 💻</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a2e,100:0a0a0f&height=200&section=header&text=Austin%20Wagner&fontColor=00fff9&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20ML%20Researcher%20%7C%20Linguist&descAlignY=55&descSize=18&animation=twinkling"/>
 
-### About Me
-- From Irvine, California 🌴
-- Studying Language Science (Linguistics & Machine Learning) @ UC Irvine 🎓
-- Research Assistant working on Turkic languages (Kazakh, Kyrgyz, Turkish) 🌐
-- Former EMT with 7 years of emergency medical experience 🚑
-- Professional Photographer specializing in portraits and nature 📸
-- Passionate about full-stack cloud development and game design 🎮
+<p align="center">
+  <a href="https://linkedin.com/in/wagner-austin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:austinwagner@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
 
-### Experience
-- Research Assistant @ UC Irvine (August 2024 - Present) 🔬
-- Professional Photographer @ Corvis Photography (May 2022 - Present) 📷
-- Emergency Medical Technician @ Falck Ambulance (March 2015 - November 2021) 🏥
+---
 
-### Featured Projects
+### 🧠 About Me
 
-- [Property Manager](https://propertieshb.com/): Real estate marketing platform with Google Drive integration and automated document management 🏘️
-- [ICS Connect](https://wagner-austin.github.io/event-planner/): Event planning and RSVP API for campus/community events with JWT auth and waitlist support 📅
-- [Kana Pop](https://wagner-austin.github.io/kana-pop/): Interactive game for learning Japanese kana and romaji relationships 🎌
-- [Model Trainer](https://github.com/wagner-austin/model-trainer): Typed microservice for training tiny language models with FastAPI, Redis, and RQ workers 🤖
-- [Turkic API](https://github.com/wagner-austin/turkic-api): Production-grade API for Turkic language corpus processing and transliteration (IPA/Latin) 🌍
-- [Data Bank API](https://github.com/wagner-austin/data-bank-api): Strictly typed file storage service for internal service-to-service exchange on Railway 💾
-- [Handwriting AI](https://github.com/wagner-austin/handwriting-ai): FastAPI service that reads handwritten digits using PyTorch with model averaging 🖊️
-- [Discord QR Bot](https://github.com/wagner-austin/DiscordBot): Discord bot for instant QR code generation with robust URL normalization ⚡
+```python
+class AustinWagner:
+    location = "Irvine, California"
+    education = "Language Science (Linguistics & ML) @ UC Irvine"
+    research = ["Kazakh", "Kyrgyz", "Turkish"]
+    interests = ["Full-Stack Dev", "Game Design", "Photography"]
+    fun_fact = "Former EMT with 7 years of experience"
+```
 
-### Statistics & Languages
+---
+
+### 💼 Experience
+
+| Role | Company | Duration |
+|------|---------|----------|
+| 🔬 Research Assistant | UC Irvine | Aug 2024 - Present |
+| 📷 Professional Photographer | Corvis Photography | May 2022 - Present |
+| 🏥 Emergency Medical Technician | Falck Ambulance | Mar 2015 - Nov 2021 |
+
+---
+
+### 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">Model Trainer</h3>
+<p align="center">
+  <a href="https://github.com/wagner-austin/model-trainer"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+</p>
+<p align="center">Typed microservice for training tiny language models with FastAPI, Redis, and RQ workers</p>
+</td>
+<td width="50%">
+<h3 align="center">Turkic API</h3>
+<p align="center">
+  <a href="https://github.com/wagner-austin/turkic-api"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+</p>
+<p align="center">Production-grade API for Turkic language corpus processing and transliteration</p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">Handwriting AI</h3>
+<p align="center">
+  <a href="https://github.com/wagner-austin/handwriting-ai"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+</p>
+<p align="center">FastAPI service that reads handwritten digits using PyTorch with model averaging</p>
+</td>
+<td width="50%">
+<h3 align="center">Kana Pop</h3>
+<p align="center">
+  <a href="https://wagner-austin.github.io/kana-pop/"><img src="https://img.shields.io/badge/Play_Now-ff00ff?style=for-the-badge&logo=github"/></a>
+</p>
+<p align="center">Interactive game for learning Japanese kana and romaji relationships</p>
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 Statistics
 
 <br>
 
@@ -33,19 +78,14 @@
   <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=3" height="150" alt="languages graph"  />
 </div>
 
-###
+---
+
+### 🛠️ Tech Stack
 
 <div align="center">
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" title="React"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/fastapi.png" alt="FastAPI" title="FastAPI"/></code>
-    <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/redis.png" alt="Redis" title="Redis"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL"/></code>
-    <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git"/></code>
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,fastapi,pytorch,docker,redis,postgres,git&theme=dark&perline=10" />
 </div>
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a2e,100:0a0a0f&height=120&section=footer"/>
