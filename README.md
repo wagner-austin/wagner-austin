@@ -64,5 +64,5 @@
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> Tech Stack</h2>
 
 <p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=FastAPI,PyTorch,Redis,Transformers,Docker,Hypercorn&theme=cyberpunk&v=2" alt="tech stack" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=Python,TypeScript,FastAPI,PyTorch,scikitlearn,polars,optuna,Transformers,Docker,Redis,PostgreSQL,Hypercorn,Railway,OpenAI&theme=cyberpunk" alt="tech stack" />
 </p>
