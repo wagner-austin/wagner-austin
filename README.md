@@ -1,5 +1,4 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a2e,100:0a0a0f&height=200&section=header&text=Austin%20Wagner&fontColor=00fff9&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20ML%20Researcher%20%7C%20Linguist&descAlignY=55&descSize=18&animation=twinkling"/>
-
 <h2>About Me</h2>
 
 ```python
