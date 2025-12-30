@@ -65,8 +65,8 @@ class AustinWagner:
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="24" /> Statistics</h2>
 
 <p>
-  <img src="https://github-stats-api-production-5042.up.railway.app/api?username=wagner-austin&theme=cyberpunk&show_icons=true&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=3" height="150" alt="languages graph" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api?username=wagner-austin&theme=cyberpunk&show_icons=true&include_all_commits=true" alt="stats graph" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=3" alt="languages graph" />
 </p>
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> Tech Stack</h2>
