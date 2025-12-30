@@ -64,7 +64,5 @@
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,fastapi,pytorch,docker,redis,postgres,git&theme=dark&perline=10" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=Python,TypeScript,JavaScript,React,FastAPI,PyTorch,Docker,Redis,PostgreSQL,Git&theme=cyberpunk" alt="tech stack" />
 </p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a2e,100:0a0a0f&height=120&section=footer"/>
