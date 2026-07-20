@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=ML%20Engineer%20%7C%20Linguist%20%7C%20Open%20Source%20Contributor&lines=Language%20Science%20%40%20UC%20Irvine%20%E2%80%94%20UROP%20Researcher|Published%3A%20HSP%202026%20%26%20Tu%2B11%20(MIT)|Council%20Executive%20Assistant%2C%20City%20of%20Irvine|LightGBM%20Contributor%20%7C%20Former%20EMT&theme=cyberpunk" alt="hero" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=Language%20Science%20%40%20UC%20Irvine%20%E2%80%94%20UROP%20Researcher|Published%3A%20HSP%202026%20%26%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
 </p>
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="24" /> Experience</h2>
@@ -8,7 +8,7 @@
 <tr>
 <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Classical%20Building.png" width="24"/></td>
 <td><b>Council Executive Assistant</b></td>
-<td>City of Irvine — Councilmember Melinda Liu</td>
+<td>Local elected official's office (Southern California)</td>
 <td><code>Policy</code></td>
 </tr>
 <tr>
@@ -110,12 +110,22 @@ Interactive data dashboards at [**austinwagner.org**](https://austinwagner.org/)
 <p><sub>City council data for 34 Orange County cities — YAML-driven, SQLite-backed, GitHub Actions auto-rebuild</sub></p>
 </td>
 <td width="50%" valign="top">
-<h3>Flock Investigation</h3>
-<a href="https://austinwagner.org/flock-investigation/"><img src="https://img.shields.io/badge/Live-ff00ff?style=for-the-badge"/></a>
-<p><sub>OC Flock Safety ALPR surveillance research — FOIA documents, 19 cities, 5M+ plate scans</sub></p>
+<h3>ASUCI Senate</h3>
+<a href="https://austinwagner.org/asuci/"><img src="https://img.shields.io/badge/Live-ff00ff?style=for-the-badge"/></a>
+<p><sub>UC Irvine student-government voting records — Playwright web scraper + daily GitHub Actions cron</sub></p>
 </td>
 </tr>
 </table>
+
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Building%20Construction.png" width="24" /> Platform Work</h2>
+
+**Multi-tenant AI operations platform** *(private repo — access on request)*
+
+30+ MCP servers powering document ingestion, meeting parsing, and knowledge synthesis. Custom 4-layer architecture enforcement — workspace guard rules + architecture tests + boot-time checks + MCP-tool rejection — that lint invariants CI-time so drift can't ship. Wiki-in-DB with primary-source audit chain (RLS-sliced tenant scoping, audit trail on writes). Tenant provisioning via canonical-writer pattern with policy-enforced sandbox namespaces. Deterministic parser fleet for meeting sources (5 platforms, 34+ agencies) with codegen-emitted migrations from a typed source registry. Semantic search via Nomic Embed v1 + HNSW (`hnswlib-node`). TypeScript + Python, Postgres 16 with RLS, Keycloak OAuth 2.1, Docker Compose orchestration.
+
+**Personal research wiki** *(private — architecture write-up on request)*
+
+559 atomic pages across 21 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via Nomic Embed + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="24" /> Open Source</h2>
 
@@ -139,5 +149,5 @@ Contributor to [**microsoft/LightGBM**](https://github.com/microsoft/LightGBM) �
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> Tech Stack</h2>
 
 <p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=Python,Rust,TypeScript,FastAPI,PyTorch,scikitlearn,polars,optuna,Transformers,Docker,Redis,PostgreSQL,Hypercorn,Railway,OpenAI&theme=cyberpunk" alt="tech stack" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=Python,Rust,TypeScript,PyTorch,Transformers,FastAPI,scikitlearn,optuna,polars,PostgreSQL,Redis,Docker,Kafka,Keycloak,Anthropic,OpenAI&theme=cyberpunk" alt="tech stack" />
 </p>
