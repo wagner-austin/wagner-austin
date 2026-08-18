@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=Language%20Science%20%40%20UC%20Irvine%20%E2%80%94%20UROP%20Researcher|Published%3A%20HSP%202026%20%26%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=B.A.%20Language%20Science%20%E2%80%94%20ML%20%26%20LLMs%20%40%20UC%20Irvine|Published%3A%20HSP%202026%20%26%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
 </p>
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="24" /> Experience</h2>
@@ -13,7 +13,7 @@
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" width="24"/></td>
-<td><b>Research Assistant & UROP Researcher</b></td>
+<td><b>Research Assistant</b></td>
 <td>UC Irvine</td>
 <td><code>Aug 2024 - Present</code></td>
 </tr>
@@ -40,6 +40,13 @@
 - Character-level LSTM trained on 6 Turkic languages + Finnish (control), all transliterated to broad IPA
 - Built on [**Turkic API**](https://github.com/wagner-austin/API/tree/main/services/turkic-api) — rules-based IPA transliteration with phonetic rules cited from peer-reviewed research
 
+**Corpus-Level Knowledge Interventions — a Seven-Arm Extraction Ablation**
+
+- Tested whether two published corpus-design interventions replicate on real cited prose rather than synthetic data — GPT-2, seven arms, three seeds each
+- Built the evaluation instrument first: **2,627 four-way cloze items** generated from a corpus's own citation apparatus, with the unexposed-model baseline established at 52.3% before any arm ran
+- Contrasts scored with **exact McNemar tests over discordant items**, run per seed rather than pooled — the arms share one deterministic item set, so per-seed differences are correlated
+- Three of five contrasts reported as nulls, including a published intervention inert under all three conditions its source specifies
+
 **Plant Metabolomics & BVOCs**
 
 - Research on **biogenic volatile organic compounds** from tree leaf and root tissues across 9 California field sites
@@ -48,7 +55,7 @@
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" /> Featured Projects</h2>
 
-All services live in my [**API monorepo**](https://github.com/wagner-austin/API) — 13 microservices, 21 shared libraries, FastAPI + Redis + RQ architecture.
+All services live in my [**API monorepo**](https://github.com/wagner-austin/API) — 13 microservices, 22 shared libraries, FastAPI + Redis + RQ architecture.
 
 <table>
 <tr>
@@ -85,16 +92,16 @@ All services live in my [**API monorepo**](https://github.com/wagner-austin/API)
 <td width="50%" valign="top">
 <h3>ClearGBM</h3>
 <a href="https://github.com/wagner-austin/API/tree/main/libs/cleargbm"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>From-scratch gradient boosting — pure stdlib Python + high-performance Rust core via PyO3</sub></p>
+<p><sub>From-scratch gradient boosting — Rust compute core via PyO3, ported from an original NumPy implementation that was retired once the port was verified</sub></p>
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>All Services (13) & Shared Libraries (21)</b></summary>
+<summary><b>All Services (13) & Shared Libraries (22)</b></summary>
 <br>
 
-See the full [**API monorepo**](https://github.com/wagner-austin/API) for all services and libraries including Data Bank, Music Wrapped, Transcript API, Handwriting AI, QR API, GitHub Stats, Opportunity Radar, Procart API, and 21 shared libraries covering ML, NLP, workers, persistence, and more.
+See the full [**API monorepo**](https://github.com/wagner-austin/API) for all services and libraries including Data Bank, Music Wrapped, Transcript API, Handwriting AI, QR API, GitHub Stats, Opportunity Radar, Procart API, and 22 shared libraries covering ML, NLP, workers, persistence, and more.
 
 </details>
 
@@ -121,23 +128,23 @@ Interactive data dashboards at [**austinwagner.org**](https://austinwagner.org/)
 
 **Multi-tenant AI operations platform** *(private repo — access on request)*
 
-30+ MCP servers powering document ingestion, meeting parsing, and knowledge synthesis. Custom 4-layer architecture enforcement — workspace guard rules + architecture tests + boot-time checks + MCP-tool rejection — that lint invariants CI-time so drift can't ship. Wiki-in-DB with primary-source audit chain (RLS-sliced tenant scoping, audit trail on writes). Tenant provisioning via canonical-writer pattern with policy-enforced sandbox namespaces. Deterministic parser fleet for meeting sources (5 platforms, 34+ agencies) with codegen-emitted migrations from a typed source registry. Semantic search via Nomic Embed v1 + HNSW (`hnswlib-node`). TypeScript + Python, Postgres 16 with RLS, Keycloak OAuth 2.1, Docker Compose orchestration.
+25 service backends serving 248 tools behind one proxy, powering document ingestion, meeting parsing, and knowledge synthesis. Custom 4-layer architecture enforcement — workspace guard rules + architecture tests + boot-time checks + MCP-tool rejection — that lint invariants CI-time so drift can't ship. Wiki-in-DB with primary-source audit chain (RLS-sliced tenant scoping, audit trail on writes). Tenant provisioning via canonical-writer pattern with policy-enforced sandbox namespaces. Deterministic parser fleet for meeting sources (5 platforms, 34+ agencies) with codegen-emitted migrations from a typed source registry. Semantic search via `gte-small` embeddings + HNSW (`hnswlib-node`). TypeScript + Python, Postgres 16 with RLS, Keycloak OAuth 2.1, Docker Compose orchestration.
 
 **Personal research wiki** *(private — architecture write-up on request)*
 
-559 atomic pages across 21 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via Nomic Embed + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
+757 atomic pages across 29 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, parametric knowledge & model editing, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via `gte-small` embeddings + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="24" /> Open Source</h2>
 
-Contributor to [**microsoft/LightGBM**](https://github.com/microsoft/LightGBM) — 9 PRs merged across Python type safety, C++ networking fixes, and test coverage.
+Contributor to [**LightGBM**](https://github.com/lightgbm-org/LightGBM) — 9 PRs merged across Python type safety, C++ networking fixes, and test coverage. All nine merged Jan–Mar 2026, while the project was Microsoft-maintained; it has since moved to `lightgbm-org`.
 
 | PR | Description |
 |----|-------------|
-| [#7137](https://github.com/microsoft/LightGBM/pull/7137) | Fix socket timeout on POSIX systems (wrong type for `setsockopt`) |
-| [#7131](https://github.com/microsoft/LightGBM/pull/7131) | Fix `test_numeric_split_direction` to test all parameter combinations |
-| [#7133](https://github.com/microsoft/LightGBM/pull/7133) | Add test for `Booster.rollback_one_iter()` |
-| [#7130](https://github.com/microsoft/LightGBM/pull/7130) | Fix numpy integer cast in `plot_importance` |
-| [#7115–7119](https://github.com/microsoft/LightGBM/pull/7115) | Type annotations — `TypeGuard`, `Literal`, `DTypeLike`, return types for sklearn predict |
+| [#7137](https://github.com/lightgbm-org/LightGBM/pull/7137) | Fix socket timeout on POSIX systems (wrong type for `setsockopt`) |
+| [#7131](https://github.com/lightgbm-org/LightGBM/pull/7131) | Fix `test_numeric_split_direction` to test all parameter combinations |
+| [#7133](https://github.com/lightgbm-org/LightGBM/pull/7133) | Add test for `Booster.rollback_one_iter()` |
+| [#7130](https://github.com/lightgbm-org/LightGBM/pull/7130) | Fix numpy integer cast in `plot_importance` |
+| [#7115–7119](https://github.com/lightgbm-org/LightGBM/pull/7115) | Type annotations — `TypeGuard`, `Literal`, `DTypeLike`, return types for sklearn predict |
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="24" /> Statistics</h2>
 
