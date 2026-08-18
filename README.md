@@ -33,10 +33,11 @@
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="24" /> Research</h2>
 
-**Language Model Loss Captures Mutual Intelligibility Gradients in Turkic Languages**
-<br>Moldir Baidildinova, Shiva Upadhye, Austin Wagner (UC Irvine)
+**Quantifying Mutual Intelligibility Gradients in Turkic Languages Using Language Models**
+<br>Moldir Baidildinova, Shiva Upadhye, Austin Wagner, Connor Mayer, Richard Futrell (UC Irvine)
 
-- Accepted at [**HSP 2026**](https://hsp2026.org/) (39th Annual Conference on Human Sentence Processing, MIT) and [**Tu+11**](https://turkicworkshop.github.io/tu11/) (11th Workshop on Turkic and Languages in Contact with Turkic, MIT)
+- **Published** in the [Proceedings of SCiL 2026](https://openpublishing.library.umass.edu/scil/article/id/4060/) (Society for Computation in Linguistics, UC San Diego)
+- Also accepted at [**HSP 2026**](https://hsp2026.org/) (39th Annual Conference on Human Sentence Processing, MIT) and [**Tu+11**](https://turkicworkshop.github.io/tu11/) (11th Workshop on Turkic and Languages in Contact with Turkic, MIT); earlier stages presented at SCAMP and SCULC
 - Character-level LSTM trained on 6 Turkic languages + Finnish (control), all transliterated to broad IPA
 - Built on [**Turkic API**](https://github.com/wagner-austin/API/tree/main/services/turkic-api) — rules-based IPA transliteration with phonetic rules cited from peer-reviewed research
 
