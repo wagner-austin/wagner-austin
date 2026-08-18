@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=B.A.%20Language%20Science%20%E2%80%94%20ML%20%26%20LLMs%20%40%20UC%20Irvine|Published%3A%20HSP%202026%20%26%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
+  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=B.A.%20Language%20Science%20%E2%80%94%20ML%20%26%20LLMs%20%40%20UC%20Irvine|Published%3A%20SCiL%202026%20Proceedings%20%2B%20HSP%20%2F%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
 </p>
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="24" /> Experience</h2>
