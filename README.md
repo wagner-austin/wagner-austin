@@ -26,8 +26,8 @@
 <tr>
 <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ambulance.png" width="24"/></td>
 <td><b>Emergency Medical Technician</b></td>
-<td>Falck Ambulance</td>
-<td><code>Mar 2015 - Nov 2021</code></td>
+<td>Falck Ambulance · Lifeline Ambulance</td>
+<td><code>Mar 2015 - May 2022</code></td>
 </tr>
 </table>
 
