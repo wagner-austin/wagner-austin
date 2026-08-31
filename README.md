@@ -56,7 +56,38 @@
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" /> Featured Projects</h2>
 
-All services live in my [**API monorepo**](https://github.com/wagner-austin/API) — 13 microservices, 22 shared libraries, FastAPI + Redis + RQ architecture.
+All of this lives in my [**API monorepo**](https://github.com/wagner-austin/API) — 13 microservices, 22 shared libraries, FastAPI + Redis + RQ architecture.
+
+**Instruments — systems that keep proving they are still right.** Each of these was built to answer a question about a system that publishes no documentation, and each ships with the machinery that re-checks the answer as the system drifts.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>NavProbe</h3>
+<a href="https://github.com/wagner-austin/API/tree/main/clients/NavProbe"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+<p><sub>GPU physics determinism instrument — finds where a simulator stops giving the same answer twice, and localises why. Carries its own 30-page findings wiki, kept deliberately separate from the instrument's design docs</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3>hpc3</h3>
+<a href="https://github.com/wagner-austin/API/tree/main/tools/hpc3"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+<p><sub>ML infrastructure for a shared SLURM GPU cluster — submits, watches, and proves afterwards which job produced which artifact. Image pinning and a run ledger, so a result is traceable to the exact container that made it</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>TankpitBot</h3>
+<a href="https://github.com/wagner-austin/API/tree/main/clients/TankpitBot"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+<p><sub>Black-box system identification — reverse-engineered a private network protocol from the outside, with a drift guard that keeps proving the understanding still holds</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3>RustedWarfareBot</h3>
+<a href="https://github.com/wagner-austin/API/tree/main/clients/RustedWarfareBot"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
+<p><sub>White-box system identification — injects into a deliberately obfuscated Java runtime to read real game state rather than pixels. Bit-reproducible campaign runs, certified 12/12 on the cluster</sub></p>
+</td>
+</tr>
+</table>
+
+**Services and libraries.**
 
 <table>
 <tr>
