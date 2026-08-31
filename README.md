@@ -9,7 +9,7 @@
 <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Classical%20Building.png" width="24"/></td>
 <td><b>Council Executive Assistant</b></td>
 <td>Local elected official's office (Southern California)</td>
-<td><code>Policy</code></td>
+<td><code>Sept 2025 - Aug 2026</code></td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" width="24"/></td>
@@ -133,7 +133,7 @@ Interactive data dashboards at [**austinwagner.org**](https://austinwagner.org/)
 
 **Personal research wiki** *(private — architecture write-up on request)*
 
-757 atomic pages across 29 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, parametric knowledge & model editing, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via `gte-small` embeddings + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
+803 atomic pages across 30 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, parametric knowledge & model editing, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via `gte-small` embeddings + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="24" /> Open Source</h2>
 
