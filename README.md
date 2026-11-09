@@ -1,192 +1,35 @@
-<p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/hero?name=Austin%20Wagner&subtitle=Software%20Engineer%20%7C%20MCP%20%26%20Agent%20Infrastructure%20%7C%20ML%20Research&lines=B.A.%20Language%20Science%20%E2%80%94%20ML%20%26%20LLMs%20%40%20UC%20Irvine|Published%3A%20SCiL%202026%20Proceedings%20%2B%20HSP%20%2F%20Tu%2B11%20(MIT)|LightGBM%20Contributor%20(9%20merged%20PRs)|Multi-tenant%20MCP%20platform%20operator|Former%20EMT%20(7%20yrs)&theme=cyberpunk" alt="hero" />
-</p>
+# Austin Wagner
 
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="24" /> Experience</h2>
+I build **backend tools, AI integrations, and research software** in Python and TypeScript. I’m based in Irvine, California, and open to junior software, research programming, ML tooling, and test automation roles, including paid internships that accept recent graduates.
 
-<table>
-<tr>
-<td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Classical%20Building.png" width="24"/></td>
-<td><b>Council Executive Assistant</b></td>
-<td>Local elected official's office (Southern California)</td>
-<td><code>Sept 2025 - Aug 2026</code></td>
-</tr>
-<tr>
-<td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" width="24"/></td>
-<td><b>Research Assistant</b></td>
-<td>UC Irvine</td>
-<td><code>Aug 2024 - Present</code></td>
-</tr>
-<tr>
-<td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" width="24"/></td>
-<td><b>Professional Photographer</b></td>
-<td>Corvis Photography</td>
-<td><code>May 2022 - Present</code></td>
-</tr>
-<tr>
-<td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ambulance.png" width="24"/></td>
-<td><b>Emergency Medical Technician</b></td>
-<td>Falck Ambulance · Lifeline Ambulance</td>
-<td><code>Mar 2015 - May 2022</code></td>
-</tr>
-</table>
+[Portfolio](https://austinwagner.org) · [Research paper](https://openpublishing.library.umass.edu/scil/article/id/4060/) · [LightGBM contributions](https://github.com/lightgbm-org/LightGBM/pulls?q=is%3Apr+is%3Amerged+author%3Awagner-austin)
 
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="24" /> Research</h2>
+## Work to start with
 
-**Quantifying Mutual Intelligibility Gradients in Turkic Languages Using Language Models**
-<br>Moldir Baidildinova, Shiva Upadhye, Austin Wagner, Connor Mayer, Richard Futrell (UC Irvine)
+**LightGBM contributions** — Maintainer-reviewed fixes and tests, including a [C++ socket-timeout fix for distributed training](https://github.com/lightgbm-org/LightGBM/pull/7137), [test parameter coverage](https://github.com/lightgbm-org/LightGBM/pull/7131), and a [regression test for iteration rollback](https://github.com/lightgbm-org/LightGBM/pull/7133).
 
-- **Published** in the [Proceedings of SCiL 2026](https://openpublishing.library.umass.edu/scil/article/id/4060/) (Society for Computation in Linguistics, UC San Diego)
-- Also accepted at [**HSP 2026**](https://hsp2026.org/) (39th Annual Conference on Human Sentence Processing, MIT) and [**Tu+11**](https://turkicworkshop.github.io/tu11/) (11th Workshop on Turkic and Languages in Contact with Turkic, MIT); earlier stages presented at SCAMP and SCULC
-- Character-level LSTM trained on 6 Turkic languages + Finnish (control), all transliterated to broad IPA
-- Built on [**Turkic API**](https://github.com/wagner-austin/API/tree/main/services/turkic-api) — rules-based IPA transliteration with phonetic rules cited from peer-reviewed research
+**Research platform** — I built and operate a platform for my own research and work, connecting AI assistants to documents, research wikis, services, and developer tools. Its MCP discovery router finds tools on demand; PostgreSQL row-level security, authentication, encrypted credentials, and audit logs support scoped access. The project began in March 2026.
 
-**Corpus-Level Knowledge Interventions — a Seven-Arm Extraction Ablation**
+**Language-model research at UC Irvine** — I developed character-level LSTM training and evaluation pipelines and coauthored [*Quantifying mutual intelligibility gradients in Turkic languages using language models*](https://openpublishing.library.umass.edu/scil/article/id/4060/), published in SCiL 2026. Related code: [Turkic API](https://github.com/wagner-austin/API/tree/main/services/turkic-api).
 
-- Tested whether two published corpus-design interventions replicate on real cited prose rather than synthetic data — GPT-2, seven arms, three seeds each
-- Built the evaluation instrument first: **2,627 four-way cloze items** generated from a corpus's own citation apparatus, with the unexposed-model baseline established at 52.3% before any arm ran
-- Contrasts scored with **exact McNemar tests over discordant items**, run per seed rather than pooled — the arms share one deterministic item set, so per-seed differences are correlated
-- Three of five contrasts reported as nulls, including a published intervention inert under all three conditions its source specifies
+I presented a research poster at [Tu+11](https://turkicworkshop.github.io/tu11/), hosted at MIT.
 
-**Plant Metabolomics & BVOCs**
+## Selected code
 
-- Research on **biogenic volatile organic compounds** from tree leaf and root tissues across 9 California field sites
-- GC-MS data processing pipeline: [**Tree Bot**](https://github.com/wagner-austin/Tree-Bot) — peak detection, co-elution analysis, compound classification
-- Interactive [**Metabolomics Dashboard**](https://austinwagner.org/metabolomics/) — Welch's t-test with FDR correction, D3.js visualizations
+| Project | What I built |
+| --- | --- |
+| [ClearGBM](https://github.com/wagner-austin/API/tree/main/libs/cleargbm) | Gradient boosting implemented in NumPy, then ported to Rust with PyO3 bindings. |
+| [Cluster tooling](https://github.com/wagner-austin/API/tree/main/tools/hpc3) | Slurm job validation, GPU budgeting, and experiment artifact tracking. |
+| [API repository](https://github.com/wagner-austin/API) | Python services, shared libraries, and tools for research and automation. |
+| [Dashboards](https://github.com/wagner-austin/Dashboards) | Public data interfaces and research visualizations. |
 
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" /> Featured Projects</h2>
+## Background
 
-All of this lives in my [**API monorepo**](https://github.com/wagner-austin/API) — 13 microservices, 22 shared libraries, FastAPI + Redis + RQ architecture.
+- **Independent software development, November 2022–present:** self-directed projects for research, automation, and developer tooling.
+- **UC Irvine research, August 2024–present:** computational linguistics and language-model experiments.
+- **City of Irvine, September 2025–August 2026:** created and managed an internship program for approximately 30 interns, with eight workshops and more than 100 research papers and presentations combined. Managed a public-service career fair, including scheduling, outreach, marketing, and intern roles.
+- **EMT, Falck and Lifeline, March 2015–May 2022:** emergency patient care and field training.
 
-**Instruments — systems that keep proving they are still right.** Each of these was built to answer a question about a system that publishes no documentation, and each ships with the machinery that re-checks the answer as the system drifts.
+**Education:** B.A. Language Science, UC Irvine, March 2026, with coursework and research in machine learning and computational linguistics.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>NavProbe</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/clients/NavProbe"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>GPU physics determinism instrument — finds where a simulator stops giving the same answer twice, and localises why. Carries its own 30-page findings wiki, kept deliberately separate from the instrument's design docs</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>hpc3</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/tools/hpc3"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>ML infrastructure for a shared SLURM GPU cluster — submits, watches, and proves afterwards which job produced which artifact. Image pinning and a run ledger, so a result is traceable to the exact container that made it</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>TankpitBot</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/clients/TankpitBot"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>Black-box system identification — reverse-engineered a private network protocol from the outside, with a drift guard that keeps proving the understanding still holds</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>RustedWarfareBot</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/clients/RustedWarfareBot"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>White-box system identification — injects into a deliberately obfuscated Java runtime to read real game state rather than pixels. Bit-reproducible campaign runs, certified 12/12 on the cluster</sub></p>
-</td>
-</tr>
-</table>
-
-**Services and libraries.**
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>Covenant Radar</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/services/covenant-radar-api"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>Loan covenant monitoring with ML breach prediction — XGBoost, LightGBM, MLP, LSTM, Optuna optimization, Kafka streaming</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>Model Trainer</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/services/Model-Trainer"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>GPT-2 and Char-LSTM training with LoRA/QLoRA fine-tuning, mixed-precision (FP16/BF16), WandB integration</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>Turkic API</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/services/turkic-api"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>Turkic language corpus processing — FastText detection, IPA transliteration (Cyrillic/Latin/Arabic), 9 languages</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>Grandma API</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/services/grandma-api"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<a href="https://grandma.austinwagner.org/"><img src="https://img.shields.io/badge/Live_Demo-ff00ff?style=for-the-badge&logo=github"/></a>
-<p><sub>Multi-language audio to English translation — Whisper STT, MMS-LID, GPT-4o-mini (57 languages)</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>Art Trainer</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/services/Art-Trainer"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>LoRA/IP-Adapter training for Stable Diffusion 1.5, SDXL, and FLUX — auto-captioning, ComfyUI deployment</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>ClearGBM</h3>
-<a href="https://github.com/wagner-austin/API/tree/main/libs/cleargbm"><img src="https://img.shields.io/badge/View_Repo-141321?style=for-the-badge&logo=github"/></a>
-<p><sub>From-scratch gradient boosting — Rust compute core via PyO3, ported from an original NumPy implementation that was retired once the port was verified</sub></p>
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>All Services (13) & Shared Libraries (22)</b></summary>
-<br>
-
-See the full [**API monorepo**](https://github.com/wagner-austin/API) for all services and libraries including Data Bank, Music Wrapped, Transcript API, Handwriting AI, QR API, GitHub Stats, Opportunity Radar, Procart API, and 22 shared libraries covering ML, NLP, workers, persistence, and more.
-
-</details>
-
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="24" /> Dashboards</h2>
-
-Interactive data dashboards at [**austinwagner.org**](https://austinwagner.org/) — see the [**Dashboards repo**](https://github.com/wagner-austin/Dashboards).
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>OC City Councils</h3>
-<a href="https://austinwagner.org/oc-city-councils/"><img src="https://img.shields.io/badge/Live-ff00ff?style=for-the-badge"/></a>
-<p><sub>City council data for 34 Orange County cities — YAML-driven, SQLite-backed, GitHub Actions auto-rebuild</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>ASUCI Senate</h3>
-<a href="https://austinwagner.org/asuci/"><img src="https://img.shields.io/badge/Live-ff00ff?style=for-the-badge"/></a>
-<p><sub>UC Irvine student-government voting records — Playwright web scraper + daily GitHub Actions cron</sub></p>
-</td>
-</tr>
-</table>
-
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Building%20Construction.png" width="24" /> Platform Work</h2>
-
-**Multi-tenant AI operations platform** *(private repo — access on request)*
-
-25 service backends serving 248 tools behind one proxy, powering document ingestion, meeting parsing, and knowledge synthesis. Custom 4-layer architecture enforcement — workspace guard rules + architecture tests + boot-time checks + MCP-tool rejection — that lint invariants CI-time so drift can't ship. Wiki-in-DB with primary-source audit chain (RLS-sliced tenant scoping, audit trail on writes). Tenant provisioning via canonical-writer pattern with policy-enforced sandbox namespaces. Deterministic parser fleet for meeting sources (5 platforms, 34+ agencies) with codegen-emitted migrations from a typed source registry. Semantic search via `gte-small` embeddings + HNSW (`hnswlib-node`). TypeScript + Python, Postgres 16 with RLS, Keycloak OAuth 2.1, Docker Compose orchestration.
-
-**Personal research wiki** *(private — architecture write-up on request)*
-
-803 atomic pages across 30 topic hubs (nursing quality improvement, mass surveillance & civil liberties, computational linguistics, atmospheric chemistry, QFT, metabolomics, parametric knowledge & model editing, others). SHA256-verified primary-source audit chain via `local_pdf:` frontmatter + a files/wiki archive; every claim is mechanically re-verifiable against a locally-archived PDF. Semantic search via `gte-small` embeddings + HNSW. Cross-domain synthesis layer — pages can link into multiple hubs (polyhierarchy).
-
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="24" /> Open Source</h2>
-
-Contributor to [**LightGBM**](https://github.com/lightgbm-org/LightGBM) — 9 PRs merged across Python type safety, C++ networking fixes, and test coverage. All nine merged Jan–Mar 2026, while the project was Microsoft-maintained; it has since moved to `lightgbm-org`.
-
-| PR | Description |
-|----|-------------|
-| [#7137](https://github.com/lightgbm-org/LightGBM/pull/7137) | Fix socket timeout on POSIX systems (wrong type for `setsockopt`) |
-| [#7131](https://github.com/lightgbm-org/LightGBM/pull/7131) | Fix `test_numeric_split_direction` to test all parameter combinations |
-| [#7133](https://github.com/lightgbm-org/LightGBM/pull/7133) | Add test for `Booster.rollback_one_iter()` |
-| [#7130](https://github.com/lightgbm-org/LightGBM/pull/7130) | Fix numpy integer cast in `plot_importance` |
-| [#7115–7119](https://github.com/lightgbm-org/LightGBM/pull/7115) | Type annotations — `TypeGuard`, `Literal`, `DTypeLike`, return types for sklearn predict |
-
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="24" /> Statistics</h2>
-
-<p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api?username=wagner-austin&theme=cyberpunk&show_icons=true&include_all_commits=true" alt="stats graph" /><br/>
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/top-langs?username=wagner-austin&theme=cyberpunk&layout=compact&langs_count=8&v=4" alt="languages graph" />
-</p>
-
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> Tech Stack</h2>
-
-<p align="center">
-  <img src="https://github-stats-api-production-5042.up.railway.app/api/skills?skills=Python,Rust,TypeScript,PyTorch,Transformers,FastAPI,scikitlearn,optuna,polars,PostgreSQL,Redis,Docker,Kafka,Keycloak,Anthropic,OpenAI&theme=cyberpunk" alt="tech stack" />
-</p>
+**Tools I use:** Python, TypeScript, SQL, Rust, FastAPI, PostgreSQL, Docker, PyTorch, NumPy, LightGBM, and Slurm; C++ through upstream contributions.
